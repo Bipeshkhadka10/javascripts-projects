@@ -1,6 +1,8 @@
 // conditional expressions in js.
 
 let age = prompt("what is your age?")
+age = Number.parseInt(age);
+console.log(typeof age);
 if (age>0&&age<12)
 {
      alert("you are a kid");
