@@ -1,6 +1,7 @@
 // program of for loop:
 let sum = 0;
-let n = prompt("enter the number");
+let n = prompt("enter the number");  // it take input in string
+n = Number.parseInt(n);
 for(let i=1; i<n; i++)
 {
      sum += i;
